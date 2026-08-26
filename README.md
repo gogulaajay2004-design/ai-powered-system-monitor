@@ -97,7 +97,7 @@ These results are based on data collected from a single local system. Accuracy c
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/gogulaajay2004-design/ai-powered-system-monitor.git
 cd ai-system-monitor
 ```
 
