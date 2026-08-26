@@ -130,7 +130,21 @@ python collector.py
 
 Keep the collector running while using the dashboard.
 
-### 2. Start the dashboard
+Collect at least 100 readings before training the models.
+
+### 2. Train prediction models
+
+```bash
+python train_model.py
+```
+
+### 3. Train anomaly-detection model
+
+```bash
+python train_anomaly.py
+```
+
+### 4. Start the dashboard
 
 Open a second terminal and run:
 
@@ -142,20 +156,6 @@ Open the following address if the browser does not open automatically:
 
 ```text
 http://localhost:8501
-```
-
-The repository includes trained model files. Retraining is optional and requires sufficient collected readings.
-
-### 3. Retrain prediction models (optional)
-
-```bash
-python train_model.py
-```
-
-### 4. Retrain anomaly-detection model (optional)
-
-```bash
-python train_anomaly.py
 ```
 
 ## Dashboard Status
