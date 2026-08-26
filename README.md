@@ -2,6 +2,27 @@
 
 An intelligent system-monitoring application developed using Python and Machine Learning. It monitors system resources in real time, predicts CPU and RAM usage five minutes ahead, detects unusual behaviour and provides smart recommendations through an interactive dashboard.
 
+## Dashboard Preview
+
+![AI System Monitor Dashboard](screenshots/dashboard-overview.png)
+
+<details>
+<summary>View additional dashboard screenshots</summary>
+
+### Resource and Network Charts
+
+![Resource Charts](screenshots/resource-charts.png)
+
+### Process Monitoring
+
+![Process Monitoring](screenshots/process-monitoring.png)
+
+### Smart Recommendations and Report
+
+![Recommendations and Report](screenshots/recommendations-report.png)
+
+</details>
+
 ## Features
 
 - Real-time CPU monitoring
@@ -33,12 +54,11 @@ An intelligent system-monitoring application developed using Python and Machine 
 
 ```text
 ai-system-monitor/
-├── models/
-│   ├── cpu_model.pkl
-│   ├── ram_model.pkl
-│   ├── features.pkl
-│   ├── anomaly_model.pkl
-│   └── anomaly_features.pkl
+├── screenshots/
+│   ├── dashboard-overview.png
+│   ├── resource-charts.png
+│   ├── process-monitoring.png
+│   └── recommendations-report.png
 ├── collector.py
 ├── dashboard.py
 ├── predictor.py
@@ -48,6 +68,8 @@ ai-system-monitor/
 ├── .gitignore
 └── README.md
 ```
+
+The `models/` directory and trained `.pkl` files are generated locally after running the training scripts.
 
 ## How It Works
 
